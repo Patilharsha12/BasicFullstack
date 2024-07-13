@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <h1>This is simple student information</h1>
+    <form  action="/action_page.php">
+
+         <label for="name">Name</label>
+        <div>
+            <input type="text" name="Name" id="name">
+        </div>
+        <br>
+           <label for="RollNo">RollNo</label>
+        <div>
+           <input type="text" name="RollNo" id="RollNo">
+        </div>
+        <br>
+           <label for="Email">Email</label>
+        <div>
+           <input type="email" name="Email" id="Email">
+        </div>
+        <br>
+           <label for="MoNumber">MoNumber</label>
+        <div>
+            <input type="number" name="Number" id="MoNumber">
+        </div>
+        <br>
+           <label for="Date">Date</label>
+        <div>
+             <input type="date" name="Date" id="Date">
+        </div>
+        <br>
+        <label for="Subjcts">Select the Subjects</label>
+        <div>
+            <input type="checkbox" id="subject1" name="subject1" value="HTML">
+            <label for="subject1"> HTML</label><br>
+            <input type="checkbox" id="subject2" name="subject2" value="CSS">
+            <label for="subject2">CSS</label><br>
+            <input type="checkbox" id="subject3" name="subject3" value="Js">
+            <label for="subject3">Js</label><br>
+            
+        </div>
+        <br>
+            <label for="Gender">Gender:</label>
+        <div>
+            Male <input type="radio" name="Gender" id="Gender">Female <input type="radio" name="Gender" id="Gender">other <input type="radio" name="Gender" id="Gender">
+        </div>
+        <br>
+        <div>
+        You have any doubt write here:<br><textarea name="Text" ></textarea>
+        </div>
+        <br>
+        <div>
+        <label for="subject">Subject</label>
+        <select name="subjects" id="subject">
+            <option value="Math">Math</option>
+            <option value="Physics">Physics</option>
+            <option value="Chemistry">Chemistry</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
